@@ -21,9 +21,9 @@ A minimalist teaser for the about page.
 
 	// Data
 	const teamMember: TeamMember = {
-		name: "Alex Morgan",
-		role: "Founder & CEO",
-		image: "https://www.unc.mn/image-placeholder.svg"
+		name: "Bryan",
+		role: "Founder",
+		image: "/generated/image-a-professional-headshot-of-a-founder-in-.webp"
 	};
 </script>
 
@@ -32,7 +32,7 @@ A minimalist teaser for the about page.
 		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
 			<ScrollText
 				class="text-title1 text-center"
-				text={`"We're building the future of digital experiences, crafting innovative solutions that transform how people interact with technology in their everyday lives"`}
+				text={`"I watched AI systems wait passively for questions while students struggled. That's not teaching. Real teaching means knowing when to interrupt, when to push forward, and when to adjust in real-time. That's what we're building at Orin."`}
 			/>
 
 			<!-- Team Member & CTA Section -->
