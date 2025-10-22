@@ -10,12 +10,20 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	centered={false}
+	title="AI teachers that adapt to your child in real-time"
+	subtitle="Personalized one-on-one tutoring for elementary students, powered by proactive voice AI that interrupts, guides, and adjusts to fill learning gaps."
+	imageSrc="/generated/image-an-elementary-aged-child-sitting-at-a-ti.webp"
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by families learning alongside"
+	logoUrls={[
+		'https://cdn.brandfetch.io/khanacademy.org/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/outschool.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/duolingo.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/brainly.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
